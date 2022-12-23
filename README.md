@@ -1,16 +1,12 @@
-# liiteharjoitus
+# harjoitukset
 
-Puoliksi valmis sivusto liitteiden lähettämistä varten, tehty muistuttamaan Kelan "lähetä liite"-osioita.
-Tietoja tai liitettä ei oikeasti lähetetä minnekkään, tein tämän sivun lähinnä omaan opetuskäyttöön.
+Puoliksi valmis sivusto erilaisia netin käytön harjoituksia varten.
+Sisältöä tulee sitä mukaan kun keksin ja teen, nämä harjoitukset ovat lähinnä omaan opetuskäyttöön mutta kuka tahansa voi näitä käyttää.
 
-Ennen tämän sivun harjoituksen kokeilemista olisi hyvä opetella skannaamaan paperinen lappu PDF-muotoon,
-esimerkiksi Google Drive-sovelluksen skannaustoiminnolla. 
+Tietoa opettajille: 
 
-Sivu on vielä sen verran vaiheessa että mitään tarkistusta ei ole, eikä lähetä-nappula tee mitään, eli tätä ei voi ns. läpäistä,
-mutta tärkeintä oli saada Kelan sivua vastaava sivu, koska omissa opetustilanteissa ei aina ole mahdollisuutta tai halua mennä Kelan sivuille 
-vahvan tunnistautumisen läpi.
-
-En ole vielä edes testannut toimintaa puhelimella, mutta oletan että sivu näkyy ja toimii ainakin androidilla samalla tavalla.
+Harjoitusten tekemistä kannattaa pohjustaa jollain tavalla, esim liiteharjoitusta kannattaa käyttää samassa yhteydessä
+kun opetellaan skannaamaan paperaita puhelimella. 
 
 
-Vapaasti käytettävissä ja kopioitavissa omaan käyttöön
+Vapaasti käytettävissä ja kopioitavissa omaan käyttöön.
