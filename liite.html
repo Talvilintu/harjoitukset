@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>testisivu</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="/js/liite.js" async defer></script>
+
+    <div class="sidebar">
+
+        <ul>
+            <li><a href="index.html">Etusivu</a></li>
+            <li><a href="liite.html" class="active">Liiteharjoitus</a></li>
+        </ul>
+
+    </div>
+    <div class="main">
+
+        <div class="text">
+            <strong>Testisivu, tietoja ei lähetetä</strong>
+
+            <p>
+                Tällä sivulla voit harjoitella liitteen lähettämistä.<br>
+                Sivun toimivuus on tehty muistuttamaan Kelan sivujen "Lähetä liite"-osiota.
+
+            </p>
+            <br>
+            <p>
+                Kokeillaan lähettää asumistukihakemukseen liittyvä <b>.pdf</b> muotoinen kopio vuokrasopimuksesta.
+                Sinulla tulisi olla tätä varten PDF-tiedosto valmiina.<br><br>
+                Kelan sivuilla voit lähettää liitteitä useammassa eri muodossa, mutta tässä harjoituksessa käytämme
+                PDF-tiedostotyyppiä. Voit liittää yhden tai useamman tiedoston, mutta suositeltavaa on että yhdessä
+                PDF-tiedostossa olisi kaikki tarvittavat asiakirjat kerralla.
+                Tämä onnistuu ainakin Google Drive-sovelluksen skannaustoiminnolla, tai netistä löytyvillä
+                PDF-tiedostojen yhditäsmistyökaluilla.
+            </p>
+            <br>
+        </div>
+        <div class="input">
+            <div class="form">
+                <form name="form">
+                    <fieldset>
+                        <legend>Liite</legend>
+
+                        <div class="asia">
+
+
+
+                            <label for="asia">Mihin asiaan liitteesi liittyy?</label>
+                            <br>
+                            <select id="asia" name="asia">
+                                <option value="" disabled selected>Valitse...</option>
+                                <option value="asuminen">Asuminen</option>
+                                <option value="sairaus">Sairauspäivärahat</option>
+                                <option value="sairaanhoito">Sairaanhoito ja lääkkeet</option>
+                                <option value="kuntoutus">Kuntoutus</option>
+                                <option value="vammaistuet">Vammaistuet</option>
+                                <option value="eläkkeet">Eläkkeet</option>
+                                <option value="opiskelu">Opiskelu</option>
+                                <option value="lapsiperheet">Lapsiperheet</option>
+                                <option value="liika">Liikamaksut ja perintäasiat</option>
+                            </select>
+
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="liite">
+
+                            <label for="liite">Minkä liitteen haluat lähettää? </label>
+                            <br>
+                            <select id="liite" name="liite">
+                                <option value="" disabled selected>Valitse...</option>
+                                <option value="vuokrasopimus">Vuokrasopimus</option>
+                                <option value="jokumuu">Joku muu</option>
+                            </select>
+
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="etuus">
+
+                            <label for="etuus">Mihin etuuteen liite lähetetään? Voit valita yhden tai useamman.</label>
+
+                            <br>
+
+                            <select id="etuus" name="etuus" multiple required>
+                                <option value="" disabled selected>Valitse...</option>
+                                <option value="asumistuki">Yleinen asumistuki</option>
+                                <option value="toimeentulo">Perustoimeentulotuki</option>
+                                <option value="eläkeasumistuki">Eläkkeensaajan asumistuki</option>
+                                <option value="sotilas">Sotilasavustus</option>
+                            </select>
+
+                        </div>
+
+                        <br>
+                        <br>
+
+                        <div class="tiedosto">
+
+                            <label for="tiedosto">Valitse tiedosto</label>
+                            <br>
+                            <input type="file" id="tiedosto" name="tiedosto" accept=".pdf" multiple required>
+
+                        </div>
+
+                        <input type="submit">
+                    </fieldset>
+                    <br>
+                    <input type="reset" value="Poista kaikki valinnat">
+            </div>
+            </form>
+</body>
+
+</html>
